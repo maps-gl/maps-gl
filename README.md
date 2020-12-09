@@ -12,6 +12,16 @@ If you are a company or project depending on an open source `mapbox-gl-js`, plea
 
 If you know of other forks, please contribute to a coherent future by reaching out to them, or file an issue on `maps-gl` for us to reach out to them... or both.
 
+### Migrating from mapbox-gl
+
+In your `package.json`, simply replace `mapbox-gl` with `@maps-gl/maps-gl`:
+```diff
+  "dependencies": {
+-    "mapbox-gl": "^1.13.0"
++    "@maps-gl/maps-gl": ">=1.13.0-rc.3"
+  }
+```
+
 ## License
 
 MapsGL is licensed under the [3-Clause BSD license](./LICENSE.txt).
