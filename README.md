@@ -12,6 +12,12 @@ If you are a company or project depending on an open source `mapbox-gl-js`, plea
 
 If you know of other forks, please contribute to a coherent future by reaching out to them, or file an issue on `maps-gl` for us to reach out to them... or both.
 
+### Migrating from mapbox-gl-js
+
+If you use mapbox-gl-js directly: Replace `"mapbox-gl": "______"` lines in your `package.json` with `"@maps-gl": "______"
+
+If you use a platform binding, you'll need to wait until we update the binding to be compatible.
+
 ## License
 
 MapsGL is licensed under the [3-Clause BSD license](./LICENSE.txt).
