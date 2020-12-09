@@ -1,7 +1,7 @@
 {
   "name": "@maps-gl/maps-gl",
   "description": "BSD licensed community fork of mapbox-gl, a WebGL interactive maps library",
-  "version": "1.13.0-rc.3",
+  "version": "1.13.0-rc.4",
   "main": "dist/mapbox-gl.js",
   "style": "dist/mapbox-gl.css",
   "license": "BSD-3-Clause",
@@ -160,7 +160,8 @@
     "test-cov": "nyc --require=@mapbox/flow-remove-types/register --reporter=text-summary --reporter=lcov --cache run-s test-unit test-expressions test-query test-render",
     "prepublishOnly": "run-s prepare-publish build-flow-types build-dev build-prod-min build-prod build-csp build-css build-style-spec test-build diff-tarball",
     "print-release-url": "node build/print-release-url.js",
-    "codegen": "build/run-node build/generate-style-code.js && build/run-node build/generate-struct-arrays.js"
+    "codegen": "build/run-node build/generate-style-code.js && build/run-node build/generate-struct-arrays.js",
+    "seth:publish": "yarn run-s prepare-publish build-flow-types build-dev build-prod-min build-prod build-csp build-css build-style-spec && npm publish"
   },
   "files": [
     "build/",
