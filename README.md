@@ -14,13 +14,12 @@ If you know of other forks, please contribute to a coherent future by reaching o
 
 ### Migrating from mapbox-gl
 
-In your `package.json`, simply replace:
-```
-`"mapbox-gl": "^1.13.0"
-```
-with
-```
-`"@maps-gl/maps-gl": ">=1.13.0.rc.3"
+In your `package.json`, simply replace `mapbox-gl` with `@maps-gl/maps-gl`:
+```diff
+  "dependencies": {
+-    "mapbox-gl": "^1.13.0"
++    "@maps-gl/maps-gl": ">=1.13.0-rc.3"
+  }
 ```
 
 ## License
