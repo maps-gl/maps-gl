@@ -5,7 +5,7 @@
 
 First you must configure your development environment per [`../CONTRIBUTING.md`](../CONTRIBUTING.md)
 
-There are two test suites associated with Mapbox GL JS
+There are two test suites associated with Maps GL JS
 
  - `yarn test` runs quick unit tests
  - `yarn run test-suite` runs slower integration tests

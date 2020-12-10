@@ -1,4 +1,4 @@
-# Architecture of Mapbox GL JS
+# Architecture of Maps GL JS
 
 ## `Map` and its subsystems
 

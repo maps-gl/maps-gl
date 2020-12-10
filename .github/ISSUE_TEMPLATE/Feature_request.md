@@ -49,6 +49,6 @@ Where do the concepts set new precedents?
 <!--
 How you would implement the design in Javascript?
 How you would implement the design in C++?
-What parts of the Mapbox GL ecosystem will need to change to accommodate this design?
+What parts of the Maps GL ecosystem will need to change to accommodate this design?
 Are there any important edge cases?
 -->
