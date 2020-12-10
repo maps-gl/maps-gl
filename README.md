@@ -1,3 +1,11 @@
+# UPDATE Dec 9: see https://github.com/maplibre/maplibre-gl-js instead
+
+A number of efforts have merged together as MapLibre, I'm working to bring MapLibre to parity with maps-gl as we speak, and will be releasing NPMs shortly. We all care mainly about avoiding fragmentation in the early days, please direct your energy and attention toward https://github.com/maplibre/maplibre-gl-js
+
+In particular, to get involved, please join the #maplibre Slack channel at OSMUS. You can get an invite at https://osmus-slack.herokuapp.com/
+
+# HISTORICAL:
+
 **MapsGL** is a community fork derived from [mapbox-gl-js](https://github.com/mapbox/mapbox-gl-js), which as of Dec 8, 2020 is no longer open source.
 
 [<img width="200" alt="MapsGL" src="https://user-images.githubusercontent.com/223277/101580282-7534f700-397e-11eb-8b58-687f52e2a8cf.png">](http://mapsgl.org)
